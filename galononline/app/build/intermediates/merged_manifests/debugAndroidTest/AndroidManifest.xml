@@ -3,7 +3,7 @@
     package="com.example.galon_online.test" >
 
     <uses-sdk
-        android:minSdkVersion="16"
+        android:minSdkVersion="15"
         android:targetSdkVersion="29" />
 
     <instrumentation
@@ -13,32 +13,8 @@
         android:label="Tests for com.example.galon_online"
         android:targetPackage="com.example.galon_online" />
 
-    <uses-permission android:name="android.permission.REORDER_TASKS" />
-
     <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
-
-        <activity
-            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-            android:theme="@style/InstrumentationActivityInvokerBootstrapActivityTheme" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-            android:theme="@style/InstrumentationActivityInvokerEmptyActivityTheme" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-            android:theme="@style/InstrumentationActivityInvokerFloatingActivityTheme" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>
