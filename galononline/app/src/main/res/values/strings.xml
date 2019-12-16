@@ -1,11 +1,12 @@
 <resources>
-    <string name="app_name">GALON-Online</string>
-    <string name="username">Username</string>
+    <string name="app_name">Galon Online</string>
     <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
     <string name="not_registered">Not Registered</string>
-    <string name="register">REGISTER</string>
+    <string name="allready_register">Allready Register</string>
     <string name="confirm_password">Confirm Password</string>
-    <string name="already_registered">Already Registered?</string>
-    <string name="login">Login</string>
-    <string name="welcome_user">Welcome User</string>
+    <string name="home_page">Home Page</string>
+    <string name="login_1">Login 1</string>
+    <string name="login_2">Login 2</string>
 </resources>

@@ -1,4 +1,4 @@
-package menu_galon;
+package com.imamfarisi.menumakan;
 
 import android.app.Activity;
 import android.content.Context;

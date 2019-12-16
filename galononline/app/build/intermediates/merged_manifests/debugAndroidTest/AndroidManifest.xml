@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.galon_online.test" >
+    package="com.example.loginactivity.test" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -10,8 +10,8 @@
         android:name="androidx.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.example.galon_online"
-        android:targetPackage="com.example.galon_online" />
+        android:label="Tests for com.example.loginactivity"
+        android:targetPackage="com.example.loginactivity" />
 
     <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />

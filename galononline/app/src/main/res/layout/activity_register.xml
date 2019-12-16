@@ -11,44 +11,46 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="130dp"
+        android:layout_height="127dp"
         android:layout_marginTop="50dp"
-        app:srcCompat="@drawable/logo"/>
+        app:srcCompat="@drawable/images"/>
 
     <EditText
         android:id="@+id/edittext_username"
-        android:layout_width="180dp"
+        android:layout_width="190dp"
         android:layout_height="40dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:background="#FFFFFF"
         android:drawableLeft="@drawable/username"
-        android:hint="@string/username"/>
+        android:hint="Username"/>
 
     <EditText
         android:id="@+id/edittext_password"
-        android:layout_width="180dp"
+        android:layout_width="190dp"
         android:layout_height="40dp"
         android:layout_marginTop="10dp"
-        android:background="#ffffff"
+        android:paddingLeft="2dp"
+        android:background="#FFFFFF"
         android:drawableLeft="@drawable/password"
         android:hint="@string/password"/>
 
     <EditText
         android:id="@+id/edittext_cnf_password"
-        android:layout_width="180dp"
+        android:layout_width="190dp"
         android:layout_height="40dp"
         android:layout_marginTop="10dp"
-        android:background="#ffffff"
+        android:paddingLeft="2dp"
+        android:background="#FFFFFF"
         android:drawableLeft="@drawable/password"
         android:hint="@string/confirm_password"/>
 
     <Button
-        android:id="@+id/textview_register"
-        android:layout_width="180dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="20dp"
-        android:background="#3762CF"
-        android:text="@string/register"/>
+        android:id="@+id/button_register"
+        android:layout_width="190dp"
+        android:layout_height="36dp"
+        android:background="#02FF19"
+        android:textColor="#000000"
+        android:text="@string/register" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -59,19 +61,21 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="35dp"
-            android:textColor="#000000"
-            android:text="@string/already_registered"/>
+            android:textColor="#123456"
+            android:text="@string/allready_register"/>
 
         <TextView
-            android:id="@+id/textview_login"
+            android:id="@+id/textview_login12"
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_height="35dp"
             android:paddingLeft="10dp"
-            android:textColor="#000000"
-            android:textStyle="bold"
+            android:textColor="#0A0A0A"
             android:textSize="16sp"
-            android:text="@string/login"/>
+            android:textStyle="bold"
+            android:text="@string/login_2"/>
+
 
     </LinearLayout>
+
 
 </LinearLayout>
